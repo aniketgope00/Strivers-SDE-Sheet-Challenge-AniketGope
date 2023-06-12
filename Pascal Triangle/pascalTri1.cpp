@@ -1,3 +1,12 @@
+/*
+This solution is a brute force based on the graphical represesntation 
+- Each point in the next row is the sum of the two points above in the previous row.
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+*/
 #include<iostream>
 #include<vector>
 using namespace std;
