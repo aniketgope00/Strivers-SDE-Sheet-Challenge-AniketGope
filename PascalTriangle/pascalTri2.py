@@ -1,3 +1,4 @@
+#solution based on property of binomial theorem coeffs.
 def fact(n):
     f = 1
     for i in range(n,1,-1):

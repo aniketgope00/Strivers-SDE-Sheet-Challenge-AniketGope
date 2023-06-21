@@ -7,6 +7,7 @@ the row number being the highest power in the equation -  coeff. for (a+b)^n for
 using namespace std;
 int get_nCr(int n, int r)
 {
+    //needs to be fixed. showing error.
     unsigned long long nFact=1,rFact=1,nrFact=1;
     for(int i = n;i>=1;i--) 
     {nFact = nFact*i;}
